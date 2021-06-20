@@ -132,3 +132,12 @@ body {
 .about-btn a:hover {
     color: #000;
 }
+.about-languages {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 6%;
+}
+.about-languages img {
+    width: 70%;
+}
