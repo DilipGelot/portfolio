@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    .main-nav {
+        position: absolute;
+        display: list-item;
+        list-style: none;
+    }
+    .about-section {
+        flex-direction: column;
+    }
+    .about-slide-left {
+        display: none;
+    }
+    .about-slide-right {
+        width: 100%;
+    }
+    .about-title h1 {
+        font-size: 2em;  
+    }
+    .header-title h1 {
+        font-size: 2em;
+    }
+    .header-title h2 {
+        font-size: 1em;
+    }
+    .header-title h4 {
+        font-size: 0.6em;
+    }
+    .about-info p {
+        font-size: 1em;
+    }
+}
