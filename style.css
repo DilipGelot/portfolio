@@ -27,12 +27,13 @@ body {
     height: 100vh;
 }
 .main-nav {
+    width: 100%;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     top: 3%;
-    left: 0%;
     align-items: center;
+    justify-content: center;
     text-transform: uppercase;
     text-align: center;
 }
@@ -47,7 +48,11 @@ body {
     transition: 0.5s;
 }
 .user-logo {
-    width: 10%;
+    width: 5%;
+    margin-right: 25%;
+}
+.user-logo img{
+    width: 100%;
 }
 .header-title {
     display: flex;
@@ -157,7 +162,7 @@ body {
     color: #515dff;
     margin-bottom: 5%;
 }
-.resume-field:after {
+.line:after {
     width: 100%;
     content: " ";
     display: block;
@@ -194,11 +199,10 @@ body {
     position: relative;
     grid-template-columns: auto auto auto;
     column-gap: 1px;
-    margin-left: 10%;
 }
 .col-skill {
-    width: 38vh;
-    height: 55vh;
+    width: 45vh;
+    height: 57vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,7 +237,7 @@ body {
 }
 .skill-title {
     position: absolute;
-    top: 12px;
+    top: 20px;
     font-size: 70%;
     text-transform: uppercase;
     font-weight: bold;
@@ -259,11 +263,11 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 12%;
-    margin: 5% 5% 2% 10%;
+    margin: 5% 5% 2% 0%;
     height: 20vh;
 }
 .skill-rowbar {
-    width: 50vh;
+    width: 57vh;
     height: 1.5vh;
     background-color:  #66666636;
     border-radius: 5px;
@@ -272,7 +276,7 @@ body {
 .skill-rowbar-value {
     height: 1.5vh;
     background-color: #515dff;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .skill-value-1 {
     width: 95%;
@@ -301,5 +305,5 @@ body {
     grid-gap: 65%;   
 }
 .awards {
-    margin-top: 15%;
+    margin-top: 25%;
 }
