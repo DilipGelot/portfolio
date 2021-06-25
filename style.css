@@ -307,3 +307,36 @@ body {
 .awards {
     margin-top: 25%;
 }
+.service-section {
+    text-align: center;
+}
+.service-section h1 {
+    font-size: 3.5em;
+}
+.service-header-p {
+    color: #a5a5a5c7;
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: 28vw 28vw 28vw;
+    gap: 6% 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service-grid-cols {
+    height: 41vh;
+    box-shadow: 0px -6px 10px #fff , 0px 8px 16px #74747460;
+
+}
+.service-grid-cols:hover {
+    background-color: #515dff;
+    transition: 1s
+}
+.service-grid-cols h4 {
+    text-transform: uppercase;
+}
+.service-icon {
+    content: "f0eb";
+    height: 100%;
+    width: 100%;
+}
