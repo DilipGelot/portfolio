@@ -3,12 +3,17 @@
         position: absolute;
         display: list-item;
         list-style: none;
+        text-align: left;
+    }
+    .user-logo {
+        width: 10%;
+        margin-left: 8.5%;
     }
     .about-section {
         flex-direction: column;
     }
     .about-slide-left {
-        display: none;
+        width: 100%;
     }
     .about-slide-right {
         width: 100%;
@@ -26,6 +31,103 @@
         font-size: 0.6em;
     }
     .about-info p {
+        font-size: 1em;
+    }
+    .about-languages {
+        grid-template-columns: 50% 50%;
+    }
+    .university-icon {
+        display: none;
+    }
+    .university-icon img {
+        display: none;
+    }
+    .resume-field h2, .resume-field h4{
+        line-height: 25px;
+    }
+    .skill-grid {
+        display: grid;
+        position: none;
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .skill-rowbar-container {
+        grid-template-columns: 100%;
+    }
+    .skill-title {
+        display: none;
+    }
+    .skill-rowbar {
+        width: 80vw;
+    }
+    .awards {
+        margin-top: 80%;
+    }
+    .service-grid {
+        display: block;
+    }
+    .service-grid-cols {
+        margin-bottom: 10%;
+    
+    }
+    .project-section-grid {
+        display: block;
+    }
+    .project-section-footer {
+        display: block;
+    }
+    .project-footer {
+        width: 100%;
+    }
+    .blog-footer {
+        display: block;
+    }
+    .blog-footer div {
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .blog-footer-tiles div h1 {
+        font-size: 1em;
+    }
+    .blog-btn {
+        width: 35%;
+    }
+    .contact-feature {
+        display: block;
+    }
+    .contact-tiles {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    .contact-addinfo {
+        display: block;
+    }
+    .contact-slide-left {
+        width: 100%;
+        margin-bottom: 10%
+    }
+    .contact-slide-right {
+        width: 100%;
+        padding: 0%;
+    }
+    .contact-btn {
+        width: 45%;
+    }
+    .form-filds input,textarea {
+        padding: 10px;
+    }
+    .footer-flex {
+        display: block;
+    }
+    .footer-tiles {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .footer-copyright img {
+        width: 5%;
+    }
+    .footer-copyright {
+        padding-top: 10%;
         font-size: 1em;
     }
 }
