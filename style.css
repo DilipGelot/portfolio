@@ -495,3 +495,71 @@ body {
 .blog-btn:hover {
     color: #000;
 }
+.contact-header {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.contact-header h1 {
+    font-size: 3.5em;
+}
+.contact-header p{
+    color:  #a5a5a5c7;
+}
+.contact-feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-tiles {
+    width: 20%;
+    height: 30vh;
+    text-align: center;
+    box-shadow: 0px -6px 10px #fff , 0px 8px 16px #74747460;
+    margin-bottom: 5%;
+}
+.contact-tiles img {
+    width: 20%;
+}
+.contact-tiles p {
+    color: #a5a5a5c7;
+}
+.contact-tiles a {
+    text-decoration: none;
+}
+.contact-addinfo {
+    display: flex;
+}
+.contact-slide-left {
+    width: 50%;
+}
+.contact-slide-right {
+    width: 50%;
+    padding: 6%;
+}
+.form-filds {
+    margin-bottom: 1rem;
+}
+.form-filds input,textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #a5a5a5c7;
+}
+.contact-btn {
+    width: 25%;
+    padding: 3% 4%;
+    background-color: #515dff;
+    border-radius: 45px;
+    letter-spacing: 2px;
+}
+.contact-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.contact-btn a:hover {
+    color: #000;
+}
