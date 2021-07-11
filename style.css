@@ -563,3 +563,48 @@ body {
 .contact-btn a:hover {
     color: #000;
 }
+footer {
+    background-color: #000000da;
+    padding-top: 10%;
+}
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #a1a1a1;
+}
+.footer-tiles {
+    width: 20%;
+}
+.footer-about {
+    line-height: 2em;
+}
+.footer-about img {
+    width: 15%;
+    margin-left: 5%;
+}
+.footer-tiles ul {
+    padding: 0;
+}
+.footer-tiles li {
+    list-style: none;
+    display:flex ;
+    margin-bottom: 4%;
+}
+.footer-tiles li img {
+    width: 9%;
+    margin-right: 10;
+}
+.footer-tiles li a {
+    text-decoration: none;
+    color: #a1a1a1;
+}
+.footer-copyright {
+    text-align: center;
+    color: #a1a1a1;
+    padding-bottom: 10%;
+    font-size: 1.2em;
+}
+.footer-copyright img {
+    width: 1.5%;
+}
