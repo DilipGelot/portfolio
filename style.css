@@ -145,7 +145,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.3em;
 }
-.about-btn a:hover {
+.about-btn a:hover{
     color: #000;
 }
 .about-languages {
@@ -547,21 +547,23 @@ body {
     border-radius: 4px;
     border: 1px solid #a5a5a5c7;
 }
-.contact-btn {
-    width: 25%;
+button {
+    width: 30%;
+    height: 10%;
     padding: 3% 4%;
     background-color: #515dff;
     border-radius: 45px;
+    border: none;
     letter-spacing: 2px;
 }
-.contact-btn a {
+.contact-btn button {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
 }
-.contact-btn a:hover {
+.contact-btn button:hover {
     color: #000;
 }
 footer {
